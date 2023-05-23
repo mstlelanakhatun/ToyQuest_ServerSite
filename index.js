@@ -61,7 +61,7 @@ async function run() {
       res.send(Toys)
     })
 
-    // Get Toy Name Search
+    //  Toy Name Search
     app.get('/toySearch/:text', async (req, res) => {
       const searchText = req.params.text;
       // console.log(searchText)
