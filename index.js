@@ -93,7 +93,7 @@ async function run() {
         }
       }
       const result = await ToysCollection.updateOne(filter, ToyUpdated, option);
-      res.send(result);
+      res.send();
     })
 
     // Delete Single Data
